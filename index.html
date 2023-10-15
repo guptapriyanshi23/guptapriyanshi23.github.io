@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyanshi Gupta's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: auto;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 75px;
+            background-color: rgb(36, 24, 105);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(248, 182, 108);
+            font-size: 1.02rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 0;
+            align-items: center;
+        }
+
+        .firstSection>div {
+            width: 40%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+        }
+
+        .rightSection img {
+            width: 112%;
+        }
+
+        .orange {
+            color: rgb(248, 182, 108);
+        }
+
+        #element {
+            color: rgb(248, 182, 108);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80px;
+        }
+
+        .secondSection h1 {
+            font-size: 2.2rem;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .secondSection .box {
+            background: rgb(248, 182, 108);
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0 0 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 150px;
+        }
+
+        .image-top {
+            width: 25%;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        footer {
+            background-color: rgb(36, 24, 105);
+            margin: 500px 0 0 0;
+            height: 223px;
+        }
+
+        .footer {
+            display: flex;
+            margin: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            margin: 50px 0 0 0;
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .text-center {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+
+        .btn {
+            background: #5E5DF0;
+            border-radius: 999px;
+            box-shadow: #5E5DF0 0 10px 20px -10px;
+            box-sizing: border-box;
+            color: #FFFFFF;
+            cursor: pointer;
+            font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            opacity: 1;
+            outline: 0 solid transparent;
+            padding: 8px 18px;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            width: fit-content;
+            word-break: break-word;
+            border: 0;
+        }
+       .second{
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Pri's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi! I'm <span class="orange" id="about"> Priyanshi. </span>
+                <div>I'm a <span id="element"></span>
+                    <div class="buttons">
+                        <a href="https://drive.google.com/file/d/1Qwe5YMnTUptjGS7c2pkq0JVEAisRauQY/view?usp=sharing"><button
+                                class="btn">View Resume</button></a>
+                        <a href="https://github.com/guptapriyanshi23"><button class="btn">Visit Github</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="images/pribg.png">
+            </div>
+        </section>
+        <hr style="border: 0;background: rgb(248, 182, 108);height:1.2px ;margin:40px 84px">
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Projects</h1>
+            <div class="box">
+                <div class="container">
+                    <div class="vertical" id="projects"></div>
+                    <a href="https://github.com/guptapriyanshi23/weatherapp"
+                        style="display: flex; flex-direction: column; align-items: center;"><img
+                            src="images/weather.png" alt="weather-app" class="image-top"></a>
+                    <p style="font-size: 1.6rem;">Weather-App</p>
+                </div>
+                <div class="container">
+                    <a href="/" style="display: flex; flex-direction: column; align-items: center;">
+                        <div class="vertical"></div>
+                        <img src="images/developer.png" alt="developer" class="image-top">
+                    </a>
+                    <p style="font-size: 1.6rem">Portfolio <br>website</p>
+                </div>
+                <div class="container">
+                    <a href="/" style="display: flex; flex-direction: column; align-items: center;">
+                        <div class="vertical"></div>
+                        <img src="images/pass.png" alt="pass" class="image-top">
+                    </a>
+                    <p style="font-size: 1.6rem">Password Manager</p>
+                </div>
+                <div class="container">
+                    <a href="https://github.com/guptapriyanshi23/travelweb"
+                        style="display: flex; flex-direction: column; align-items: center;">
+                        <div class="vertical"></div>
+                        <img src="images/travel.png" alt="todo" class="image-top">
+                    </a>
+                    <p style="font-size: 1.6rem">Travel <br>Website </p>
+                </div>
+            </div>
+        </section>
+    </main><br><br>
+    <footer>
+        <div class="footer">
+            <div class="first">
+                <h3>Priyanshi's Developer Portfolio</h3>
+            </div>
+            <div class="second">
+                <ul>
+                    <a href="/"><li style="color: #FFFFFF; text-decoration: none;">Home</li></a>
+                    <a href="#about"><li style="color: #FFFFFF; text-decoration: none;">About</li></a>
+                    <a href="#contact"><li style="color: #FFFFFF; text-decoration: none;">Contact</li></a>
+                    <a href="#projects"><li style="color: #FFFFFF; text-decoration: none;">Projects</li></a>
+                </ul>
+            </div>
+            <div class="third">
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=100037054307461"><i class="fab fa-facebook-f" style="color: #FFFFFF;"> Facebook</i></a></li>
+                    <li><a href="https://twitter.com/_priyyyanshi_"><i class="fab fa-twitter" style="color: #FFFFFF;"> Twitter</i></a></li>
+                    <li> <a href="https://www.instagram.com/priiyyaanshii/?next=%2F"><i class="fab fa-instagram" style="color: #FFFFFF;"> Instagram</i></a></li>
+                    <li> <a href="www.linkedin.com/in/priyanshi-gupta-476916287"><i class="fab fa-linkedin-in" style="color: #FFFFFF;"> LinkedIn</i></a></li>
+                </ul>
+            </div>
+            <div class="fourth" id="contact">
+                <ul>
+                    <li>+91 8373960312</li>
+                    <li>gpriyanshi239@gmail.com</li>
+                    <li>www.priyanshisportfolio.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center">
+            Copyright &#169; www.priyanshisportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Python Developer', 'Content Writer', 'Web Designer', 'Data Analyst'],
+            typeSpeed: 100,
+        });
+    </script>
+</body>
+
+</html>
